@@ -27,10 +27,9 @@ class Register(View):
 # Create your views here.
 class FormView(View):
     def get(self, request):
-        # Tutaj możesz umieścić kod obsługujący żądanie GET dla widoku formularza
-        return render(request, 'form.html')  # Zwracamy odpowiedni szablon dla formularza
+
+        return render(request, 'form.html')
 
     def post(self, request):
-        # Tutaj możesz umieścić kod obsługujący żądanie POST dla widoku formularza
-        # Np. pobranie danych przekazanych przez formularz i zapisanie ich w bazie danych
-        return render(request, 'form.html')  # Zwracamy odpowiedni szablon dla formularza (np. ten sam, lub inny po potwierdzeniu przesłania danych)
+
+        return render(request, 'form.html')
