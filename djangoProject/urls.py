@@ -24,4 +24,5 @@ urlpatterns = [
     path('add_donation/', views.AddDonation.as_view(), name='add_donation'),
     path('login/', views.Login.as_view(), name='login'),
     path('register/', views.Register.as_view(), name='register'),
+    path('form/', views.FormView.as_view(), name='form'),
 ]
